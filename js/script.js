@@ -9,9 +9,9 @@ let photo3;
 //http://pngimg.com/image/13434
 
 function preload() {
-    photo1 = loadImage('*/images/smile.png');
-    photo2 = loadImage('*/images/cloud.png');
-    photo3 = loadImage('*/images/sun.png');
+    photo1 = loadImage('/images/smile.png');
+    photo2 = loadImage('/images/cloud.png');
+    photo3 = loadImage('/images/sun.png');
 }
 
 function setup() {
