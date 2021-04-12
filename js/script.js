@@ -19,7 +19,7 @@ function setup() {
     cnv.parent("p5canvas");
 
     vidcapture = createCapture(VIDEO);
-    vidcapture.size(600, 600);
+    vidcapture.size(width, height);
     vidcapture.hide();
     ctracker = new clm.tracker();
     ctracker.init();
