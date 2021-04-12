@@ -15,7 +15,7 @@ function preload() {
 }
 
 function setup() {
-    var cnv = createCanvas(windowWidth, windowHeight);
+    var cnv = createCanvas(1000, 800);
     cnv.parent("p5canvas");
 
     vidcapture = createCapture(VIDEO);
